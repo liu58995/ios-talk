@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445D077219D29D710010EB7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077119D29D710010EB7B /* Foundation.framework */; };
+		445D077419D29D710010EB7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077319D29D710010EB7B /* CoreGraphics.framework */; };
+		445D077619D29D710010EB7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077519D29D710010EB7B /* UIKit.framework */; };
+		445D077819D29D710010EB7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077719D29D710010EB7B /* CoreData.framework */; };
+		445D077E19D29D710010EB7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 445D077C19D29D710010EB7B /* InfoPlist.strings */; };
+		445D078019D29D710010EB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D077F19D29D710010EB7B /* main.m */; };
+		445D078419D29D710010EB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D078319D29D710010EB7B /* AppDelegate.m */; };
+		445D078719D29D710010EB7B /* WTalkBeta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445D078519D29D710010EB7B /* WTalkBeta.xcdatamodeld */; };
+		445D078919D29D710010EB7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445D078819D29D710010EB7B /* Images.xcassets */; };
+		445D079019D29D710010EB7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D078F19D29D710010EB7B /* XCTest.framework */; };
+		445D079119D29D710010EB7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077119D29D710010EB7B /* Foundation.framework */; };
+		445D079219D29D710010EB7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077519D29D710010EB7B /* UIKit.framework */; };
+		445D079319D29D710010EB7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D077719D29D710010EB7B /* CoreData.framework */; };
+		445D079B19D29D710010EB7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 445D079919D29D710010EB7B /* InfoPlist.strings */; };
+		445D079D19D29D710010EB7B /* WTalkBetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D079C19D29D710010EB7B /* WTalkBetaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445D079419D29D710010EB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D076619D29D710010EB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445D076D19D29D710010EB7B;
+			remoteInfo = WTalkBeta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445D076E19D29D710010EB7B /* WTalkBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTalkBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445D077119D29D710010EB7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		445D077319D29D710010EB7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		445D077519D29D710010EB7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		445D077719D29D710010EB7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		445D077B19D29D710010EB7B /* WTalkBeta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTalkBeta-Info.plist"; sourceTree = "<group>"; };
+		445D077D19D29D710010EB7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		445D077F19D29D710010EB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445D078119D29D710010EB7B /* WTalkBeta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTalkBeta-Prefix.pch"; sourceTree = "<group>"; };
+		445D078219D29D710010EB7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		445D078319D29D710010EB7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		445D078619D29D710010EB7B /* WTalkBeta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WTalkBeta.xcdatamodel; sourceTree = "<group>"; };
+		445D078819D29D710010EB7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		445D078E19D29D710010EB7B /* WTalkBetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTalkBetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445D078F19D29D710010EB7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		445D079819D29D710010EB7B /* WTalkBetaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTalkBetaTests-Info.plist"; sourceTree = "<group>"; };
+		445D079A19D29D710010EB7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		445D079C19D29D710010EB7B /* WTalkBetaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTalkBetaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445D076B19D29D710010EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D077419D29D710010EB7B /* CoreGraphics.framework in Frameworks */,
+				445D077819D29D710010EB7B /* CoreData.framework in Frameworks */,
+				445D077619D29D710010EB7B /* UIKit.framework in Frameworks */,
+				445D077219D29D710010EB7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D078B19D29D710010EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D079019D29D710010EB7B /* XCTest.framework in Frameworks */,
+				445D079319D29D710010EB7B /* CoreData.framework in Frameworks */,
+				445D079219D29D710010EB7B /* UIKit.framework in Frameworks */,
+				445D079119D29D710010EB7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445D076519D29D710010EB7B = {
+			isa = PBXGroup;
+			children = (
+				445D077919D29D710010EB7B /* WTalkBeta */,
+				445D079619D29D710010EB7B /* WTalkBetaTests */,
+				445D077019D29D710010EB7B /* Frameworks */,
+				445D076F19D29D710010EB7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445D076F19D29D710010EB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445D076E19D29D710010EB7B /* WTalkBeta.app */,
+				445D078E19D29D710010EB7B /* WTalkBetaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445D077019D29D710010EB7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				445D077119D29D710010EB7B /* Foundation.framework */,
+				445D077319D29D710010EB7B /* CoreGraphics.framework */,
+				445D077519D29D710010EB7B /* UIKit.framework */,
+				445D077719D29D710010EB7B /* CoreData.framework */,
+				445D078F19D29D710010EB7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		445D077919D29D710010EB7B /* WTalkBeta */ = {
+			isa = PBXGroup;
+			children = (
+				445D078219D29D710010EB7B /* AppDelegate.h */,
+				445D078319D29D710010EB7B /* AppDelegate.m */,
+				445D078819D29D710010EB7B /* Images.xcassets */,
+				445D078519D29D710010EB7B /* WTalkBeta.xcdatamodeld */,
+				445D077A19D29D710010EB7B /* Supporting Files */,
+			);
+			path = WTalkBeta;
+			sourceTree = "<group>";
+		};
+		445D077A19D29D710010EB7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445D077B19D29D710010EB7B /* WTalkBeta-Info.plist */,
+				445D077C19D29D710010EB7B /* InfoPlist.strings */,
+				445D077F19D29D710010EB7B /* main.m */,
+				445D078119D29D710010EB7B /* WTalkBeta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445D079619D29D710010EB7B /* WTalkBetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				445D079C19D29D710010EB7B /* WTalkBetaTests.m */,
+				445D079719D29D710010EB7B /* Supporting Files */,
+			);
+			path = WTalkBetaTests;
+			sourceTree = "<group>";
+		};
+		445D079719D29D710010EB7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445D079819D29D710010EB7B /* WTalkBetaTests-Info.plist */,
+				445D079919D29D710010EB7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445D076D19D29D710010EB7B /* WTalkBeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D07A019D29D710010EB7B /* Build configuration list for PBXNativeTarget "WTalkBeta" */;
+			buildPhases = (
+				445D076A19D29D710010EB7B /* Sources */,
+				445D076B19D29D710010EB7B /* Frameworks */,
+				445D076C19D29D710010EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTalkBeta;
+			productName = WTalkBeta;
+			productReference = 445D076E19D29D710010EB7B /* WTalkBeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445D078D19D29D710010EB7B /* WTalkBetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D07A319D29D710010EB7B /* Build configuration list for PBXNativeTarget "WTalkBetaTests" */;
+			buildPhases = (
+				445D078A19D29D710010EB7B /* Sources */,
+				445D078B19D29D710010EB7B /* Frameworks */,
+				445D078C19D29D710010EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445D079519D29D710010EB7B /* PBXTargetDependency */,
+			);
+			name = WTalkBetaTests;
+			productName = WTalkBetaTests;
+			productReference = 445D078E19D29D710010EB7B /* WTalkBetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445D076619D29D710010EB7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = silicon;
+				TargetAttributes = {
+					445D078D19D29D710010EB7B = {
+						TestTargetID = 445D076D19D29D710010EB7B;
+					};
+				};
+			};
+			buildConfigurationList = 445D076919D29D710010EB7B /* Build configuration list for PBXProject "WTalkBeta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 445D076519D29D710010EB7B;
+			productRefGroup = 445D076F19D29D710010EB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445D076D19D29D710010EB7B /* WTalkBeta */,
+				445D078D19D29D710010EB7B /* WTalkBetaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445D076C19D29D710010EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D077E19D29D710010EB7B /* InfoPlist.strings in Resources */,
+				445D078919D29D710010EB7B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D078C19D29D710010EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D079B19D29D710010EB7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445D076A19D29D710010EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D078419D29D710010EB7B /* AppDelegate.m in Sources */,
+				445D078719D29D710010EB7B /* WTalkBeta.xcdatamodeld in Sources */,
+				445D078019D29D710010EB7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D078A19D29D710010EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D079D19D29D710010EB7B /* WTalkBetaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445D079519D29D710010EB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445D076D19D29D710010EB7B /* WTalkBeta */;
+			targetProxy = 445D079419D29D710010EB7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		445D077C19D29D710010EB7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D077D19D29D710010EB7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		445D079919D29D710010EB7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D079A19D29D710010EB7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445D079E19D29D710010EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		445D079F19D29D710010EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445D07A119D29D710010EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTalkBeta/WTalkBeta-Prefix.pch";
+				INFOPLIST_FILE = "WTalkBeta/WTalkBeta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		445D07A219D29D710010EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTalkBeta/WTalkBeta-Prefix.pch";
+				INFOPLIST_FILE = "WTalkBeta/WTalkBeta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		445D07A419D29D710010EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WTalkBeta.app/WTalkBeta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTalkBeta/WTalkBeta-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WTalkBetaTests/WTalkBetaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		445D07A519D29D710010EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WTalkBeta.app/WTalkBeta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTalkBeta/WTalkBeta-Prefix.pch";
+				INFOPLIST_FILE = "WTalkBetaTests/WTalkBetaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445D076919D29D710010EB7B /* Build configuration list for PBXProject "WTalkBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D079E19D29D710010EB7B /* Debug */,
+				445D079F19D29D710010EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445D07A019D29D710010EB7B /* Build configuration list for PBXNativeTarget "WTalkBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D07A119D29D710010EB7B /* Debug */,
+				445D07A219D29D710010EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		445D07A319D29D710010EB7B /* Build configuration list for PBXNativeTarget "WTalkBetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D07A419D29D710010EB7B /* Debug */,
+				445D07A519D29D710010EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		445D078519D29D710010EB7B /* WTalkBeta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				445D078619D29D710010EB7B /* WTalkBeta.xcdatamodel */,
+			);
+			currentVersion = 445D078619D29D710010EB7B /* WTalkBeta.xcdatamodel */;
+			path = WTalkBeta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 445D076619D29D710010EB7B /* Project object */;
+}
