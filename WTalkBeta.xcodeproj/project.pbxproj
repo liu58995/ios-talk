@@ -84,6 +84,7 @@
 		445D079D19D29D710010EB7B /* WTalkBetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D079C19D29D710010EB7B /* WTalkBetaTests.m */; };
 		445D07A919D29DC40010EB7B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D07A719D29DC40010EB7B /* MainViewController.m */; };
 		445D07AA19D29DC40010EB7B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445D07A819D29DC40010EB7B /* MainViewController.xib */; };
+		AEE79E841B50156A00D7CDC7 /* project.txt in Resources */ = {isa = PBXBuildFile; fileRef = AEE79E831B50156A00D7CDC7 /* project.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,6 +251,7 @@
 		445D07A619D29DC40010EB7B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		445D07A719D29DC40010EB7B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		445D07A819D29DC40010EB7B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AEE79E831B50156A00D7CDC7 /* project.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = project.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,6 +519,7 @@
 				445D078819D29D710010EB7B /* Images.xcassets */,
 				445D078519D29D710010EB7B /* WTalkBeta.xcdatamodeld */,
 				445D077A19D29D710010EB7B /* Supporting Files */,
+				AEE79E831B50156A00D7CDC7 /* project.txt */,
 			);
 			path = WTalkBeta;
 			sourceTree = "<group>";
@@ -633,6 +636,7 @@
 				445D078919D29D710010EB7B /* Images.xcassets in Resources */,
 				4403254D19E5228600E6D35D /* bubble1.png in Resources */,
 				44489C8D19E651800068C6BD /* h1.jpg in Resources */,
+				AEE79E841B50156A00D7CDC7 /* project.txt in Resources */,
 				44489C8E19E651800068C6BD /* h2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
