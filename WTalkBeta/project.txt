@@ -1,0 +1,12 @@
+2015 July 10
+
+1. make the tableView scroll automatically after finishing the recording
+2. push the project to github
+3. change the icon
+
+
+July 11
+1. display date before the audio
+2. tap to record and then tap to stap. maxiumu 2 minutes
+
+
