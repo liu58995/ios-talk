@@ -74,6 +74,16 @@
     //加载聊天内容
     UIButton *chatView = [dic objectForKey:@"view"];
     if([[dic objectForKey:@"from"] isEqualToString:@"SELF"]){
+        
+        //add the date/time when it is recorded.
+        UILabel *labelDate = [[UILabel alloc] initWithFrame:CGRectMake(10, 25, 100, 30)];
+        NSDate *date = [dic objectForKeyedSubscript:@"date"];
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:@"MM/dd hh:mm"];
+        NSString *strDate = [dateFormatter stringFromDate:date ];
+        [labelDate setText:strDate];
+        [cell addSubview:labelDate];
+        
         //添加录音时长显示
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(120, 25, 30, 30)];
         int time = [[dic objectForKey:@"time"] intValue];
@@ -184,8 +194,11 @@
     UIButton *view = [self bubbleView:@"点击播放" from:YES];
     //时长
     NSNumber *num = [[NSNumber alloc] initWithDouble:interval];
+    NSDate  *date = [[NSDate alloc] init ];
     
-    NSMutableDictionary *dic = [[NSMutableDictionary alloc]initWithObjectsAndKeys:@"SELF", @"from", view, @"view", self.fileName, @"voice", num, @"time", nil];
+    NSLog(@"audio create at : %@", date);
+    
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc]initWithObjectsAndKeys:@"SELF", @"from", view, @"view", self.fileName, @"voice", num, @"time", date, @"date", nil];
     [self.voiceArray addObject:dic];
     
     //系统默认回复消息
@@ -196,7 +209,6 @@
     
     //[self.vTableView reloadData];
     [self.vTableView performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
-    
     long lastRowNumber = [self.vTableView numberOfRowsInSection:0 ] - 1;
     
     if(lastRowNumber >= 0)

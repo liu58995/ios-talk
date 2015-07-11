@@ -1,12 +1,12 @@
 2015 July 10
 
-1. make the tableView scroll automatically after finishing the recording
-2. push the project to github
-3. change the icon
+1. make the tableView scroll automatically after finishing the recording  --done
+2. push the project to github  --done https://github.com/liu58995/ios-talk
+3. change the icon  --done, changed the speakers' icons'
 
 
 July 11
-1. display date before the audio
-2. tap to record and then tap to stap. maxiumu 2 minutes
+1. display date in front of the audio
+2. tap to record and then tap to stop. maximum 2 minutes
 
 
